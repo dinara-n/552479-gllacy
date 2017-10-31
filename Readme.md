@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Динара Навширванова](https://up.htmlacademy.ru/htmlcss/19/user/552479).
-* Наставник: [Иван Тарасов](https://htmlacademy.ru/profile/tarasoff).
+* Наставник: [Иван Тарасов](https://up.htmlacademy.ru/htmlcss/19/user/276271).
 
 ---
 
