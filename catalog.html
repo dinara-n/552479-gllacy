@@ -7,7 +7,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <a class="gllacy-logo" href="index.html">
         <img src="img/gllacy-logo.svg" width="154" height="64" alt="Логотип магазина «Глэйси»">
@@ -109,29 +109,29 @@
           </fieldset>
           <fieldset class="filter-form-fieldset filter-form-fatcontent">
             <legend>Жирность:</legend>
-            <input class="filter-form-fatcontent visually-hidden" type="radio" name="fatcontent" id="fatcontent-0-id" value="0">
+            <input class="filter-form-input visually-hidden" type="radio" name="fatcontent" id="fatcontent-0-id" value="0">
             <label for="fatcontent-0-id">0%</label>
-            <input class="filter-form-fatcontent visually-hidden" type="radio" name="fatcontent" id="fatcontent-under10-id" value="under 10" checked>
+            <input class="filter-form-input visually-hidden" type="radio" name="fatcontent" id="fatcontent-under10-id" value="under 10" checked>
             <label for="fatcontent-under10-id">До 10%</label>
-            <input class="filter-form-fatcontent visually-hidden" type="radio" name="fatcontent" id="fatcontent-under30-id" value="under 30">
+            <input class="filter-form-input visually-hidden" type="radio" name="fatcontent" id="fatcontent-under30-id" value="under 30">
             <label for="fatcontent-under30-id">До 30%</label>
-            <input class="filter-form-fatcontent visually-hidden" type="radio" name="fatcontent" id="fatcontent-above30-id" value="above 30">
+            <input class="filter-form-input visually-hidden" type="radio" name="fatcontent" id="fatcontent-above30-id" value="above 30" disabled>
             <label for="fatcontent-above30-id">Выше 30%</label>
           </fieldset>
           <fieldset class="filter-form-fieldset filter-form-fillings">
             <legend>Наполнители:</legend>
-            <input class="filter-form-fillings visually-hidden" type="checkbox" name="fillings-chocolate" id="fillings-chocolate-id" checked>
+            <input class="filter-form-input visually-hidden" type="checkbox" name="fillings-chocolate" id="fillings-chocolate-id" checked disabled>
             <label for="fillings-chocolate-id">Шоколадные</label>
-            <input class="filter-form-fillings visually-hidden" type="checkbox" name="fillings-sugar" id="fillings-sugar-id" checked>
+            <input class="filter-form-input visually-hidden" type="checkbox" name="fillings-sugar" id="fillings-sugar-id" checked>
             <label for="fillings-sugar-id">Сахарные присыпки</label>
-            <input class="filter-form-fillings visually-hidden" type="checkbox" name="fillings-fruit" id="fillings-fruit-id">
+            <input class="filter-form-input visually-hidden" type="checkbox" name="fillings-fruit" id="fillings-fruit-id">
             <label for="fillings-fruit-id">Фрукты</label>
-            <input class="filter-form-fillings visually-hidden" type="checkbox" name="fillings-syrup" id="fillings-syrup-id">
+            <input class="filter-form-input visually-hidden" type="checkbox" name="fillings-syrup" id="fillings-syrup-id">
             <label for="fillings-syrup-id">Сиропы</label>
-            <input class="filter-form-fillings visually-hidden" type="checkbox" name="fillings-jam" id="fillings-jam-id">
+            <input class="filter-form-input visually-hidden" type="checkbox" name="fillings-jam" id="fillings-jam-id">
             <label for="fillings-jam-id">Джемы</label>
           </fieldset>
-          <button class="button filter-form-button" type="submit">Применить</button>
+          <button class="filter-form-button" type="submit">Применить</button>
         </form>
       </section>
       <section class="catalog">
@@ -235,13 +235,13 @@
           </li>
         </ul>
         <ul class="pagination-list">
-          <li class="pagination-item pagination-prev disabled"><a>Назад</a></li>
-          <li class="pagination-item pagination-item-current"><a>1</a></li>
-          <li class="pagination-item"><a href="#">2</a></li>
-          <li class="pagination-item"><a href="#">3</a></li>
-          <li class="pagination-item"><a href="#">4</a></li>
-          <li class="pagination-item"><a href="#">5</a></li>
-          <li class="pagination-item pagination-next"><a href="#">Вперед</a></li>
+          <li><a class="pagination-link pagination-prev disabled">Назад</a></li>
+          <li><a class="pagination-link pagination-current">1</a></li>
+          <li><a class="pagination-link" href="#">2</a></li>
+          <li><a class="pagination-link" href="#">3</a></li>
+          <li><a class="pagination-link" href="#">4</a></li>
+          <li><a class="pagination-link" href="#">5</a></li>
+          <li><a class="pagination-link pagination-next" href="#">Вперед</a></li>
         </ul>
       </section>
     </main>
